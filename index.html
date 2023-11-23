@@ -10,22 +10,29 @@
   <body>
     <head>
       <style>
-     ul {
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        font-family: Cambria, Times, serif;
-      }
+        /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+        ul {
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          font-family: Cambria, Times, serif;
+        }
 
-      li {
-        float: left;
-        display: block;
-        padding: 10px 20px;
-      }
+        li {
+          float: left;
+          display: block;
+          padding: 10px 20px;
+        }
+
         a {
-        color: white;
-        text-decoration: none;
-      }
+          color: white;
+          text-decoration: none;
+        }
+
         @media only screen {
 
           /*For mobile view also side by side website https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_images_side_by_side*/
@@ -75,22 +82,23 @@
         }
 
         #section0 {
-          background-color: #b8b51d;
+          background-color: #d8c9ff;
         }
 
         #section1 {
-          background-color: #423711;
+          background-color: #fce0ff;
         }
 
         #section2 {
-          background-color: #bbb5a7;
+          background-color: #d8c9ff;
         }
 
         #section3 {
-          background-color: #8b2e25;
+          background-color: #fce0ff;
         }
       </style>
     </head>
+
     <li><a href="#section0">Home</a></li>
     <li><a href="#section1">About Me</a></li>
     <li><a href="#section2">Art</a></li>
@@ -103,7 +111,7 @@
     <div id="section1">
       Your amazing content goes here!
       <div class="row">
-        
+
         <div class="column">
           <img src="testimage.jpg" alt="Snow" style="width:100%">
         </div>
@@ -114,13 +122,51 @@
       </div>
     </div>
     <div id="section2">
-      Your amazing content goes here!
-    </div>
-    <div id="section3">
-      Your amazing content goes here!
-    </div>
-    <div id="section4">
-      Your amazing content goes here!
+      <h1>Kim Mai</h1>
+      <style>
+        /* Make the image fully responsive */
+        .carousel-inner img {
+          width: 100%;
+          height: 100%;
+        }
+      </style>
+
+      <body>
+
+        <div id="demo" class="carousel slide" data-ride="carousel">
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="testimage.jpg" alt="Los Angeles" width="1100" height="500">
+              <div class="carousel-caption">
+                <h3>Los Angeles</h3>
+                <p>We had such a great time in LA!</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="chicago.jpg" alt="Chicago" width="1100" height="500">
+              <div class="carousel-caption">
+                <h3>Chicago</h3>
+                <p>Thank you, Chicago!</p>
+              </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+
+        </div>
+        <div id="section3">
+          Your amazing content goes here!
+        </div>
     </div>
   </body>
 </html>
