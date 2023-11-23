@@ -3,11 +3,57 @@
 
   <head>
     <meta charset="UTF-8">
-    <title>Art</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Assignment 3 GBDA 228</title>
   </head>
   <body>
     <head>
       <style>
+     ul {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        font-family: Cambria, Times, serif;
+      }
+
+      li {
+        float: left;
+        display: block;
+        padding: 10px 20px;
+      }
+        a {
+        color: white;
+        text-decoration: none;
+      }
+        @media only screen {
+
+          /*For mobile view also side by side website https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_images_side_by_side*/
+          body {
+            width: 100%;
+
+          }
+
+          img {
+            width: 100%;
+            margin-top: 20px;
+            display: block;
+          }
+        }
+
+        .column {
+          float: left;
+          width: 33.33%;
+          padding: 5px;
+        }
+
+        /* Clearfix (clear floats) */
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+
         h1 {
           text-align: center;
         }
@@ -43,22 +89,29 @@
         #section3 {
           background-color: #8b2e25;
         }
-
-        
       </style>
     </head>
-    <a href="#section0">Home</a>
-    <a href="#section1">About Me</a>
-    <a href="#section2">Art</a>
-    <a href="#section3">Projects</a>
+    <li><a href="#section0">Home</a></li>
+    <li><a href="#section1">About Me</a></li>
+    <li><a href="#section2">Art</a></li>
+    <li><a href="#section3">Projects</a></li>
 
-    <h2>
-      One-page scroll site template</h2>
+
     <div id="section0">
+      <h1>Kim Mai</h1>
     </div>
     <div id="section1">
       Your amazing content goes here!
-      <img src="testimage.JPG" alt="Test Image">
+      <div class="row">
+        
+        <div class="column">
+          <img src="testimage.jpg" alt="Snow" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="testimage2.jpg" alt="Forest" style="width:100%">
+        </div>
+
+      </div>
     </div>
     <div id="section2">
       Your amazing content goes here!
