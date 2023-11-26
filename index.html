@@ -73,6 +73,7 @@
           text-align: center;
           margin-top: -300px;
         }
+        
 
         @media only screen {
 
@@ -148,16 +149,24 @@
 
     </div>
     <div id="section1">
+     
       <h2>About Me</h2>
-
+      <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      
     </div>
     <div id="section2">
       <p>Kim Mai</p>
       <style>
         /* Make the image fully responsive */
         .carousel-inner img {
-          width: 100%;
-          height: 100%;
+          width: 50%;
+          height: 50%;
         }
       </style>
 
@@ -192,7 +201,39 @@
           </a>
         </div>
         <div id="section3">
-          Your amazing content goes here!
+          <div id="demo" class="carousel slide" data-ride="carousel">
+
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
+
+          <!-- The slideshow -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="testimage.jpg" alt="Los Angeles" width="600" height="260">
+               <div class="carousel-caption">
+          <h3>New York</h3>
+          <p>We love the Big Apple!</p>
+        </div>
+      </div>
+            </div>
+            <div class="carousel-item">
+              <img src="testimage2.jpg" alt="Chicago" width="600" height="260">
+            </div>
+
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
         </div>
     </div>
   </body>
