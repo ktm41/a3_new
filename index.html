@@ -220,8 +220,8 @@
       <style>
         /* Make the image fully responsive */
         .carousel-inner img {
-          width: 50%;
-          height: 50%;
+          width: 100%;
+          height: 100%;
         }
       </style>
 
@@ -259,14 +259,15 @@
           <style>
             /* Make the image fully responsive */
             .carousel-inner img {
-              width: 50%;
-              height: 50%;
+              position: center;
+              width: 100%;
+              height: 100%;
             }
           </style>
 
           <body>
             <!-- for carousel https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_carousel -->
-            <div id="demo" class="carousel slide" data-ride="carousel">
+            <div id="demo1" class="carousel slide" data-ride="carousel">
 
               <!-- Indicators -->
               <ul class="carousel-indicators">
@@ -307,12 +308,8 @@
                   <label for="lname">Last Name</label>
                   <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-                  <label for="country">Country</label>
-                  <select id="country" name="country">
-                    <option value="australia">Australia</option>
-                    <option value="canada">Canada</option>
-                    <option value="usa">USA</option>
-                  </select>
+                  <label for="lname">Email Adress</label>
+                  <input type="text" id="email" name="lastname" placeholder="Your e-mail address..">
 
                   <label for="subject">Subject</label>
                   <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
