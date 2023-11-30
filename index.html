@@ -14,7 +14,24 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
     <head>
       <style>
-         .navbar {
+        
+        * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+        .navbar {
           /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_menu*/
           /*in case I get the gradient to work linear-gradient(to right, #A40062 , #FF9B56);*/
           overflow: hidden;
@@ -25,9 +42,8 @@
           opacity: 0.5;
           z-index: 2;
         }
-        
-        .navbar li {
-        }
+
+        .navbar li {}
 
         .navbar a {
           display: block;
@@ -41,11 +57,12 @@
           background: #facde5;
           color: #6e330a;
         }
+
         img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
 
         /*full paged image: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_full_page*/
         .kimMain {
@@ -74,11 +91,7 @@
           background-size: cover;
         }
 
-        /* Make the image fully responsive */
-        .carousel-inner img {
-          width: 100%;
-          height: 100%;
-        }
+     
 
         body {
           margin: 0;
@@ -121,7 +134,7 @@
           padding: 10px;
         }
 
-       
+
         .main {
           margin-top: 30px;
           height: 1500px;
@@ -135,7 +148,7 @@
           font-family: Cambria, Times, serif;
         }
 
-       
+
 
         .kimKim {
           /*do I need to cite this? https://www.w3schools.com/css/css_align.asp*/
@@ -257,13 +270,54 @@
     </div>
     <div id="section2">
       <p>Kim Mai</p>
-      <style>
+      <div class="row">
+  <div class="column">
+    <img src="testimage.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="testimage.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="testimage.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <img src="testimage.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="testimage.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="testimage.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+      <div class="row">
+  <div class="column">
+    <img src="testimage.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="testimage.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="testimage.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+    </div>
+        <div id="section3">
+
+  <style>
         /* Make the image fully responsive */
-        .carousel{
+        .carousel {
           width: 600px;
           height: 400px;
         }
+
+           /* Make the image fully responsive */
         .carousel-inner img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
           width: 100%;
           height: 100%;
         }
@@ -299,49 +353,6 @@
             <span class="carousel-control-next-icon"></span>
           </a>
         </div>
-        <div id="section3">
-          <style>
-        .carousel{
-          width: 600px;
-          height: 400px;
-        }
-        .carousel-inner img {
-          width: 100%;
-          height: 100%;
-        }
-          </style>
-
-          <body>
-            <!-- for carousel https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_carousel -->
-            <div id="demo1" class="carousel slide" data-ride="carousel">
-
-              <!-- Indicators -->
-              <ul class="carousel-indicators">
-                <li data-target="#demo" data-slide-to="0" class="active"></li>
-                <li data-target="#demo" data-slide-to="1"></li>
-                <li data-target="#demo" data-slide-to="2"></li>
-              </ul>
-
-              <!-- The slideshow -->
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="testimage.jpg" alt="Los Angeles" width="600" height="260">
-                </div>
-                <div class="carousel-item">
-                  <img src="testimage2.jpg" alt="Chicago" width="600" height="260">
-                </div>
-
-              </div>
-
-              <!-- Left and right controls -->
-              <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-              </a>
-              <a class="carousel-control-next" href="#demo" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-              </a>
-
-            </div>
             <div id="section4">
               <!-- contact me form -->
               <h1>Contact Me</h1>
@@ -361,26 +372,26 @@
                   <tr>
                     <td>Waterloo Email</td>
                     <td>ktmai@uwaterloo.ca</td>
-                   
+
 
 
                   </tr>
                   <tr>
                     <td>Personal Email</td>
                     <td>maithuykim2018@gmail.com</td>
-                 
+
 
                   </tr>
                   <tr>
                     <td>LinkedIn</td>
                     <td>kim-mai-9b64b1225</td>
-                    
+
 
                   </tr>
                   <tr>
                     <td>Phone</td>
                     <td>226-752-8700</td>
-                    
+
                   </tr>
                 </table>
                 <div class="container">
