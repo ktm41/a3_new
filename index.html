@@ -14,23 +14,23 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
     <head>
       <style>
-        
         * {
-  box-sizing: border-box;
-}
+          box-sizing: border-box;
+        }
 
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
+        .column {
+          float: left;
+          width: 33.33%;
+          padding: 5px;
+        }
 
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+        /* Clearfix (clear floats) */
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+
         .navbar {
           /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_menu*/
           /*in case I get the gradient to work linear-gradient(to right, #A40062 , #FF9B56);*/
@@ -58,7 +58,7 @@
           color: #6e330a;
         }
 
-        img {
+        .imgEyes {
           display: block;
           margin-left: auto;
           margin-right: auto;
@@ -76,6 +76,52 @@
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
+
+        }
+
+        .kim2 {
+          /* The image used */
+          background-image: url("kim's cover-min.png");
+          /* Full height */
+          height: 100%;
+          /* Center and scale the image nicely */
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+
+        }
+        .kim3 {
+          /* The image used */
+          background-image: url("kim's cover-min.png");
+          /* Full height */
+          height: 100%;
+          /* Center and scale the image nicely */
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+
+        }
+        .kim4 {
+          /* The image used */
+          background-image: url("kim's cover-min.png");
+          /* Full height */
+          height: 100%;
+          /* Center and scale the image nicely */
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+
+        }
+        .kim5 {
+          /* The image used */
+          background-image: url("kim's cover-min.png");
+          /* Full height */
+          height: 100%;
+          /* Center and scale the image nicely */
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+
         }
 
         .kimAbootEh {
@@ -91,15 +137,10 @@
           background-size: cover;
         }
 
-     
-
         body {
           margin: 0;
         }
 
-        * {
-          box-sizing: border-box;
-        }
 
         /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form*/
         input[type=text],
@@ -255,12 +296,13 @@
 
     </div>
     <div id="section1">
+      <div class="kim2"></div>
       <!-- <div class="kimAbootEh"></div> -->
-      <img src="eyes edited.jpg" alt="Girl in a jacket" width="100%" height="300">
-      <h2>About Me</h2>
+      <!--<img src="eyes edited.jpg" alt="Girl in a jacket" width="100%" height="300">-->
 
       <div class="abootMeEh">
 
+        <h2>About Me</h2>
 
         <h3>I don't actually have white eyelashes (as you can see by my eyebrows)</h3>
         <p>What I do have, however, are endless ideas that can be applied to any form of art. Visual arts, visual storytelling, eye makeup...</p>
@@ -269,41 +311,42 @@
       </div>
     </div>
     <div id="section2">
+      <div class="kim3"></div>
       <p>Kim Mai</p>
       <div class="row">
-  <div class="column">
-    <img src="testimage.jpg" alt="Snow" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="testimage.jpg" alt="Forest" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="testimage.jpg" alt="Mountains" style="width:100%">
-  </div>
-</div>
-<div class="row">
-  <div class="column">
-    <img src="testimage.jpg" alt="Snow" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="testimage.jpg" alt="Forest" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="testimage.jpg" alt="Mountains" style="width:100%">
-  </div>
-</div>
+        <div class="column">
+          <img src="testimage.jpg" alt="Snow" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="testimage.jpg" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="testimage.jpg" alt="Mountains" style="width:100%">
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="testimage.jpg" alt="Snow" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="testimage.jpg" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="testimage.jpg" alt="Mountains" style="width:100%">
+        </div>
+      </div>
 
     </div>
-        <div id="section3">
-
-  <style>
+    <div id="section3">
+<div class="kim4"></div>
+      <style>
         /* Make the image fully responsive */
         .carousel {
           width: 600px;
           height: 400px;
         }
 
-           /* Make the image fully responsive */
+        /* Make the image fully responsive */
         .carousel-inner img {
           display: block;
           margin-left: auto;
@@ -312,7 +355,7 @@
           height: 100%;
         }
       </style>
-          <h1>Visual Storytelling</h1>
+      <h1>Visual Storytelling</h1>
       <body>
         <!-- for carousel https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_carousel -->
         <div id="demo" class="carousel slide" data-ride="carousel">
@@ -329,16 +372,16 @@
             <div class="carousel-item active">
               <img src="testimage.jpg" alt="Los Angeles" style="width:50%;" height="auto">
               <div class="carousel-caption">
-          <h3>Los Angeles</h3>
-          <p>LA is always so much fun!</p>
-        </div>
+                <h3>Los Angeles</h3>
+                <p>LA is always so much fun!</p>
+              </div>
             </div>
             <div class="carousel-item">
               <img src="testimage2.jpg" alt="Chicago" style="width:50%;" height="auto">
               <div class="carousel-caption">
-          <h3>Los Angeles</h3>
-          <p>LA is always so much fun!</p>
-        </div>
+                <h3>Los Angeles</h3>
+                <p>LA is always so much fun!</p>
+              </div>
             </div>
 
           </div>
@@ -351,62 +394,63 @@
             <span class="carousel-control-next-icon"></span>
           </a>
         </div>
-            <div id="section4">
-              <!-- contact me form -->
-              <h1>Contact Me</h1>
+        <div id="section4">
+          <!-- contact me form -->
+          <div class="kim5"></div>
+          <h1>Contact Me</h1>
 
 
 
-              <!-- https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_tables_bordered_striped-->
-              <div class="w3-container">
+          <!-- https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_tables_bordered_striped-->
+          <div class="w3-container">
 
-                <table class="w3-table w3-striped w3-bordered">
-                  <tr>
-                    <th>Contact Information</th>
-                    <th>Details</th>
-                  </tr>
+            <table class="w3-table w3-striped w3-bordered">
+              <tr>
+                <th>Contact Information</th>
+                <th>Details</th>
+              </tr>
 
-                  <tr>
-                    <td>Waterloo Email</td>
-                    <td>ktmai@uwaterloo.ca</td>
-
-
-
-                  </tr>
-                  <tr>
-                    <td>Personal Email</td>
-                    <td>maithuykim2018@gmail.com</td>
+              <tr>
+                <td>Waterloo Email</td>
+                <td>ktmai@uwaterloo.ca</td>
 
 
-                  </tr>
-                  <tr>
-                    <td>LinkedIn</td>
-                    <td>kim-mai-9b64b1225</td>
+
+              </tr>
+              <tr>
+                <td>Personal Email</td>
+                <td>maithuykim2018@gmail.com</td>
 
 
-                  </tr>
-                  <tr>
-                    <td>Phone</td>
-                    <td>226-752-8700</td>
+              </tr>
+              <tr>
+                <td>LinkedIn</td>
+                <td>kim-mai-9b64b1225</td>
 
-                  </tr>
-                </table>
-                <div class="container">
-                  <form action="/action_page.php">
-                    <label for="name">Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your first and last name..">
 
-                    <label for="email">Email</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your email..">
+              </tr>
+              <tr>
+                <td>Phone</td>
+                <td>226-752-8700</td>
 
-                    <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:50px"></textarea>
+              </tr>
+            </table>
+            <div class="container">
+              <form action="/action_page.php">
+                <label for="name">Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your first and last name..">
 
-                    <input type="submit" value="Submit">
-                  </form>
-                </div>
-              </div>
+                <label for="email">Email</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your email..">
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:50px"></textarea>
+
+                <input type="submit" value="Submit">
+              </form>
             </div>
+          </div>
+        </div>
 
-          </body>
+      </body>
 </html>
