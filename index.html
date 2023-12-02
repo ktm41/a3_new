@@ -15,10 +15,6 @@
     <head>
 
       <style>
-        * {
-          box-sizing: border-box;
-        }
-
         /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_responsive3*/
         .responsive {
           width: 100%;
@@ -29,7 +25,7 @@
         .column {
 
           float: center;
-          width: 33.33%;
+          width: 20%;
           padding: 5px;
         }
 
@@ -39,6 +35,7 @@
           clear: both;
           display: table;
         }
+
         .navbar {
           /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_menu*/
           /*in case I get the gradient to work linear-gradient(to right, #A40062 , #FF9B56);*/
@@ -66,9 +63,9 @@
           background: #facde5;
           color: #6e330a;
         }
-        
 
-        
+
+
         /*full paged image: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_full_page*/
         .kimMain {
           /* The image used */
@@ -181,6 +178,10 @@
 
         .kimKim {
           /*do I need to cite this? https://www.w3schools.com/css/css_align.asp*/
+          margin: auto;
+          width: 60%;
+          border: 10px solid #4c1754;
+          padding: 10px;
           text-align: center;
           margin-top: -300px;
         }
@@ -294,26 +295,30 @@
     <div class="navbar">
       <li><a href="#section0">Home</a></li>
       <li><a href="#section1">About Me</a></li>
-      <li><a href="#section3">Visual Storytelling</a></li>
-      <li><a href="#section2">Art</a></li>
-      <li><a href="#section3">Contact Me</a></li>
+      <li><a href="#section2">Visual Storytelling</a></li>
+      <li><a href="#section3">Art</a></li>
+      <li><a href="#section4">Contact Me</a></li>
     </div>
     <div id="section0">
       <div class="kimMain"></div>
+
       <div class="kimKim">
         <i>
           <h1>Kim Mai</h1>
         </i>
+        <p>To view my complete portfolio, please refer to this <strong><a href="https://drive.google.com/drive/folders/116tFsex6tAiuL7JiGruzkbz4IbZ27GKL?usp=sharing">link</a></strong>.</p>
+
       </div>
-      <p>To view my complete portfolio, please refer to this <strong><a href="https://drive.google.com/drive/folders/116tFsex6tAiuL7JiGruzkbz4IbZ27GKL?usp=sharing">link</a></strong>.</p>
 
     </div>
+
     <div id="section1">
 
       <!-- <div class="kimAbootEh"></div> -->
       <!--<img src="eyes edited.jpg" alt="Girl in a jacket" width="100%" height="300">-->
 
       <div class="kim2"></div>
+
       <div class="aboutmetext">
         <h2>About Me</h2>
 
@@ -321,6 +326,7 @@
         <p>What I do have, however, are endless ideas that can be applied to any form of art. Visual arts, visual storytelling, eye makeup...</p>
         <p>Yes, I am an artist.</p>
         <p>Bleh bleh bleh bleh I'll talk about this later...</p>
+
       </div>
 
     </div>
@@ -408,11 +414,6 @@
                 </div>
                 <div class="column">
                   <img src="sideprofile.jpg" alt="Mountains" class="responsive" width="50px" height="150px">
-                </div>
-              </div>
-              <div class="row">
-                <div class="column">
-                  <img src="fruits.jpg" alt="Snow" class="responsive" width="100px" height="300px">
                 </div>
                 <div class="column">
                   <img src="face.jpg" alt="Forest" class="responsive" width="100px" height="300px">
