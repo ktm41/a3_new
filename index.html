@@ -86,6 +86,7 @@
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
+          z-index: 2;
 
         }
 
@@ -125,40 +126,9 @@
 
         }
 
-        .artStuff {
-          max-width: 100%;
-          text-align: center;
-          font-size: 18px;
-        }
+        
 
-        .visualStuff {
-          position: absolute;
-          top: 300%;
-          width: 100%;
-          text-align: center;
-          font-size: 18px;
-        }
 
-        .contactStuff {
-          position: absolute;
-          top: 50%;
-          width: 100%;
-          text-align: center;
-          font-size: 18px;
-        }
-
-        .kimAbootEh {
-          /* The image used */
-          background-image: url("");
-
-          /* Full height */
-          height: 100%;
-
-          /* Center and scale the image nicely */
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
-        }
 
         /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form*/
         input[type=text],
@@ -212,15 +182,32 @@
           margin-top: -300px;
         }
 
-        div.abootMeEh {
+        .aboutmetext {
           position: absolute;
-          top: 100%;
+          top: 708px;
+          left: 16px;
+        }
+
+        .artStuff {
+          position: absolute;
+          top: 1408px;
+          left: 16px;
+        }
+
+        .visualStuff {
+          text-align: center;
+          position: absolute;
+          top: 2108px;
+          left: 16px;
+        }
+
+        .contactStuff {
+          position: absolute;
+          top: 50%;
           width: 100%;
           text-align: center;
           font-size: 18px;
-
         }
-
         div.contactMeEh {
           position: absolute;
           top: 450%;
@@ -278,7 +265,7 @@
         #section2,
         #section3,
         #section4 {
-          max-height: 100%;
+          height: 700px;
         }
 
         #section0 {
@@ -324,8 +311,9 @@
       <!-- <div class="kimAbootEh"></div> -->
       <!--<img src="eyes edited.jpg" alt="Girl in a jacket" width="100%" height="300">-->
 
-      <div class="abootMeEh">
 
+
+      <div class="aboutmetext">
         <h2>About Me</h2>
 
         <h3>I don't actually have white eyelashes (as you can see by my eyebrows)</h3>
@@ -333,6 +321,7 @@
         <p>Yes, I am an artist.</p>
         <p>Bleh bleh bleh bleh I'll talk about this later...</p>
       </div>
+
     </div>
     <div id="section2">
 
@@ -343,7 +332,7 @@
         <h1>Art</h1>
         <div class="row">
           <div class="column">
-            <img src="hips.jpg" alt="hips" style="width:100%" height="450px">
+            <img src="hips.jpg" alt="hips" width="100px" height="450px">
           </div>
           <div class="column">
             <img src="teddy.jpg" alt="Forest" style="width:100%" height="450px">
