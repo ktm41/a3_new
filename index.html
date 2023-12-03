@@ -4,6 +4,9 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Alex Brush" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alexandria" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <title>Assignment 3 GBDA 228</title>
@@ -40,28 +43,31 @@
           /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_menu*/
           /*in case I get the gradient to work linear-gradient(to right, #A40062 , #FF9B56);*/
           overflow: hidden;
-          background-color: black;
-          font-family: "Lucida Console", "Courier New", monospace;
+          background-color: #110e24;
+          font-family: "Alexandria";font-size: 30px;
+          
           position: fixed;
           top: 0;
           width: 100%;
-          opacity: 0.25;
+          /*opacity: 0.25;*/
           z-index: 2;
         }
 
         .navbar a {
+          opacity: 1;
           float: left;
           display: block;
-          color: pink;
-          text-align: center;
+          color: #ffdefe;
+          text-align: left;
           padding: 5px 20px;
           text-decoration: none;
           font-size: 17px;
+          /*#ffdefe*/
         }
 
         .navbar a:hover {
           background: #facde5;
-          color: #6e330a;
+          color: black;
         }
 
 
@@ -130,9 +136,6 @@
 
         }
 
-
-
-
         .main {
           margin-top: 30px;
           height: 1500px;
@@ -143,17 +146,17 @@
           margin: 0;
           padding: 0;
           overflow: hidden;
-          font-family: Cambria, Times, serif;
+          font-family: Arimo;
         }
 
         .kimKim {
           /*do I need to cite this? https://www.w3schools.com/css/css_align.asp*/
           margin: auto;
-          width: 60%;
-          border: 10px solid #4c1754;
+          width: 80%;
+          border: 10px solid #ffdefe;
           padding: 10px;
           text-align: center;
-          margin-top: -300px;
+          margin-top: -600px;
         }
 
         .aboutmetext {
@@ -204,7 +207,7 @@
         }
 
         body {
-          font-family: Arial, Helvetica, sans-serif;
+          font-family: Arimo;
         }
 
         * {
@@ -275,26 +278,32 @@
 
         h1 {
           font-family: "Aguafina Script";
-          font-size: 110px;
+          font-size: 210px;
           text-align: center;
+          color: #110e24
         }
 
         h2 {
           text-align: center;
-          font-family: "Aguafina Script";
-          font-size: 75px;
+          font-family: "Alex Brush";font-size: 100px;
           color: black;
         }
 
         h3 {
-          font-family: "Public Sans";
+          font-family: "Alexandria";
+          font-size: 25px;
+          text-align: center;
+          color: black;
+        }
+        h4 {
+          font-family: "Alexandria";
           font-size: 25px;
           text-align: center;
           color: black;
         }
 
         p {
-          font-family: "Public Sans";
+          font-family: "Alexandria";
           font-size: 20px;
           text-align: center;
           color: black;
@@ -331,19 +340,21 @@
       </style>
     </head>
     <div class="navbar">
-      <li><a href="#section0">Home</a></li>
-      <li><a href="#section1">About Me</a></li>
-      <li><a href="#section2">Initiatives</a></li>
-      <li><a href="#section3">Art</a></li>
-      <li><a href="#section4">Contact Me</a></li>
+      <li><a href="#section0">HOME</a></li>
+      <li><a href="#section1">ABOUT ME</a></li>
+      <li><a href="#section2">INITIATIVES</a></li>
+      <li><a href="#section3">ART</a></li>
+      <li><a href="#section4">CONTACT ME</a></li>
     </div>
     <div id="section0">
       <div class="kimMain"></div>
 
       <div class="kimKim">
+        <h2>Hello, I'm</h2>
         <i>
           <h1>Kim Mai</h1>
         </i>
+        <h4>Hello, and welcome to my portfolio website!</h4>
         <p>To view my complete portfolio, please refer to this <strong><a href="https://drive.google.com/drive/folders/116tFsex6tAiuL7JiGruzkbz4IbZ27GKL?usp=sharing">link</a></strong>.</p>
 
       </div>
@@ -401,6 +412,7 @@
             <li data-target="#demo" data-slide-to="0" class="active"></li>
             <li data-target="#demo" data-slide-to="1"></li>
             <li data-target="#demo" data-slide-to="2"></li>
+           
           </ul>
 
           <!-- The slideshow -->
@@ -424,11 +436,11 @@
               <img src="adult money.png" alt="Chicago" class="responsive" width="400px" height="auto">
               <div class="carousel-caption">
                 <h3>Adult Money</h3>
-                <p>Play the game <a href="file:///C:/Users/maith/Downloads/Adult%20Money.html" target="_blank">here!</a></p>
+                <p>Download the <a href="https://drive.google.com/file/d/1444lqGvA4aBWfvxB19_ISStFDlbU1jFv/view?usp=sharing" target="_blank">file</a> to play the game!</p>
                 <p>LA is always so much fun!</p>
               </div>
             </div>
-
+            
           </div>
 
           <!-- Left and right controls -->
