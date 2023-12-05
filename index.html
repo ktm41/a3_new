@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Starter code: https://netnet.studio/?c=2B&layout=dock-left#code/eJydk8FugzAMhu88hUevq4AAAhXKK+y8YwIeQQsEQbqtm/buM4iWql0mrRLIDr8/x8FOLk2rCicXujqSkcgrMqM5KiwcAMngi0yplR52IBQvXzNaf9NLzwRd6u+yMZjBErAZsTSN7vzHsxusLlvdcHWjOZ3EppZmB4nv9x8ZwLrjOeccRxVQQfWgD121XWrYiFTEQZVdFRHYgYiFSRBcA+yPHYSIeXICViS0I6lgyOJbJLIjSZqwOLr4207uLX3JvaVPHOSAL3v3fEq38HOP/64EVoVZldCqRJMyFSVZ4Tx1uO15jTCWg1YKRpoDMNj2ihukaikkr5o3aKq9e+qgO52DPt5KlN151ocBeMs/m66m8eoMdgZqjSMNx4APNpTdj4b3o9E/UG+5ad588X4AqEMP5g==
+			Author: Professor Greg J. Smith
+			Name: One-page scroll site template
+			Description: Single page website template
+			Date Retrieved: Nov. 23, 2023 
+			-->
     <title>Assignment 3 GBDA 228</title>
     <!--fonts-->
     <link href="https://fonts.googleapis.com/css?family=Alex Brush" rel="stylesheet">
@@ -58,12 +64,20 @@
           text-align: center;
           color: white;
         }
-				/*Displaying images*/
+        
+				/*Displaying images https://www.w3schools.com/howto/howto_css_image_center.asp
+        Code copied from:
+				Author: w3schools.com
+				Name:
+				Description:
+				Date retrieved: Dec. 2, 2023
+        */
         img {
           display: block;
           margin-left: auto;
           margin-right: auto;
         }
+        /*Copied code ends*/
 
         /* Code copied from: https://www.w3schools.com/css/css_link.asp
 				Author: w3schools.com
@@ -126,7 +140,6 @@
           height: 1500px;
           /* Used in this example to enable scrolling */
         }
-
         /*Copied code ends for now, used later*/
 
         /*Code copied from: https://www.w3schools.com/howto/howto_css_full_page.asp
@@ -134,7 +147,7 @@
 				Name: How TO - Full Page Image
 				Description: Creates full page image, used for all backgrounds
 				Date retrieved: Nov. 25, 2023
-        Note: used multiple times
+        Note: Used in all pages.
         */
         .kimMain {
           /* The image used */
@@ -255,7 +268,6 @@
           text-align: center;
           margin-top: -630px;
         }
-
         /*Copied code ends for now, used later*/
 
         /*Code copied from:
@@ -263,6 +275,8 @@
         Author: w3schools.com
         Name: How TO - Responsive Images
         Description: Creates responsive images
+        Date retrieved: Nov. 28, 2023
+        Note: Used many times with all non-background images
         */
         .responsive {
           width: 100%;
@@ -280,8 +294,10 @@
         /* Code copied from: https://www.w3schools.com/howto/howto_css_table_zebra.asp
 					Author: w3schools.com
 					Name: How TO - Zebra Striped Table
-					Description: Creates zebra-striped table, more code below.
-					Date retrieved: Nov. 27, 2023 */
+					Description: Creates zebra-striped table.
+					Date retrieved: Nov. 27, 2023 
+        	Note: More code below.
+        */
 
         table {
           border-collapse: collapse;
@@ -297,19 +313,19 @@
         tr:nth-child(even) {
           background-color: #ffdefe;
         }
-
         /*Copied code ends, used later*/
 
         /* Code copied from: https://www.w3schools.com/howto/howto_css_contact_section.asp
 					Author: w3schools.com
 					Name: How TO - Contact Section
-					Description: CSS information for contact section, more below
-					Date retrieved: Nov. 27, 2023 */
-
+					Description: CSS information for contact section.
+					Date retrieved: Nov. 27, 2023 
+        	Note: More code below.
+        */
         body {
           font-family: "Alexandria";
         }
-
+        
         /* Style inputs */
         input[type=text],
         select,
@@ -389,8 +405,8 @@
         }
       </style>
     </head>
+    <!-- How TO - Fixed Menu code applied for navbar div -->
     <div class="navbar">
-
       <a href="#section0">HOME</a>
       <a href="#section1">ABOUT ME</a>
       <a href="#section2">PROJECTS</a>
@@ -424,12 +440,12 @@
       <div class="kim3"></div>
       <div class="visualStuff">
         <h2>Projects</h2>
-        <p>Here are some of my visual storytelling side projects!</p>
+        <p>Here are some of my visual storytelling projects!</p>
         <!-- Code copied from: https://www.w3schools.com/bootstrap/bootstrap_carousel.asp
 					Author: w3schools.com
 					Name:Bootstrap Carousel Plugin
 					Description: Create carousel
-					Date retrieved: Nov. 27, 2023 -->
+					Date retrieved: Nov. 23, 2023 -->
         <style>
           /* Make the image fully responsive */
           .carousel {
@@ -458,7 +474,7 @@
             <!-- The slideshow -->
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="troim.png" alt="Troimeria Academy" class="responsive" width="420px" height="360px">
+                <img src="troim.png" alt="Troimeria Academy" class="responsive" width="360px" height="300px">
                 <div class="carousel-caption">
                   <h4>Troimeria Academy of Mystics</h4>
                   <h5>Welcome to my magic academy, created for mystical minds and outerwordly scholars.</h5>
@@ -466,7 +482,7 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="wbc.png" alt="White Blood Cell Attack" class="responsive" width="420px" height="360px">
+                <img src="wbc.png" alt="White Blood Cell Attack" class="responsive" width="360px" height="300px">
                 <div class="carousel-caption">
                   <h4>Neutrophil, Attack!</h4>
                   <h5>POV: You are a white blood cell. Fulfill your duties by eliminating bad bacteria!</h5>
@@ -474,7 +490,7 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="adultmo.png" alt="Adult Money" class="responsive" width="420px" height="360px">
+                <img src="adultmo.png" alt="Adult Money" class="responsive" width="360px" height="300px">
                 <div class="carousel-caption">
                   <h4>Adult Money</h4>
                   <h5>Achievement Unlocked: You have just entered completd adulthood.</h5>
@@ -496,11 +512,11 @@
       <div id="section3">
         <div class="kim4"></div>
         <div class="artStuff">
-          <!-- Code copied from: https://www.w3schools.com/howto/howto_css_images_side_by_side.asp 
-          Author: w3schools.com
+    	<!--Code copied from: https://www.w3schools.com/howto/howto_css_images_side_by_side.asp 
+        	Author: w3schools.com
 					Name: How TO - Align Images Side By Side
-					Description: Align images side by side
-					Date retrieved: Nov. 27, 2023 -->
+				  Description: Align images side by side
+					Date retrieved: Nov. 28, 2023 -->
           <h2>Art</h2>
           <p>Here are some examples of my art, created traditionally using pencils, ink, paint, and pastels.</p>
           <div class="row">
@@ -530,11 +546,13 @@
         <div class="contactStuff">
           <h2>Contact Me</h2>
           <p>If you're interested in my work, contact me here:</p>
-          <!-- Code copied and modified from: https://www.w3schools.com/html/html_table_styling.asp
-										Author: w3schools.com
-										Name:HTML Table Styling
-										Description: Zebra-pettern table
-										Date retrieved: Nov. 27, 2023 -->
+          <!-- Code copied from: https://www.w3schools.com/howto/howto_css_table_zebra.asp
+								Author: w3schools.com
+								Name: How TO - Zebra Striped Table
+								Description: Creates zebra-striped table.
+								Date retrieved: Nov. 27, 2023
+								Note: Here is the rest of the code from above.
+						-->
           <div class="row1">
             <div class="aroundcolumn">
               <div class="column1">
@@ -565,11 +583,13 @@
 
               <div class="column1">
                 <div style="text-align:left">
-                  <!--Code copied from: https://www.w3schools.com/howto/howto_css_contact_section.asp
+                  <!-- Code copied from: https://www.w3schools.com/howto/howto_css_contact_section.asp
 											Author: w3schools.com
 											Name: How TO - Contact Section
-											Description: Create contact section with user input
-											Date retrieved: Nov. 27, 2023 -->
+											Description: CSS information for contact section.
+											Date retrieved: Nov. 27, 20233 
+											Note: Here is the rest of the code from above.
+										-->
                   <form action="/action_page.php">
                     <label for="name"><b>Name</b></label>
                     <input type="text" id="fname" name="name" placeholder="Your name..">
